@@ -523,7 +523,6 @@ def pilihan(pil):
 		status = ""
 		username = raw_input(a+"\n ?"+p+" Masukkan Username Target"+h+": ")
 		info_dev(username, pas, status)
-
 		print garis
 		print p+" ["+k+"1"+p+"] Pengikut "+h+username+p+" >> "+k+str(pengikut)
 		print p+" ["+k+"2"+p+"] Yang Diikuti "+h+username+p+" >> "+k+str(mengikuti)
